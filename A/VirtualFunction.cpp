@@ -7,12 +7,16 @@ public:
     }
 };
 
+
+
 class Dog : public Animal {
 public:
     void makeSound() override {
         cout << "Bark" << endl;
     }
 };
+
+
 
 class Cat : public Animal {
 public:

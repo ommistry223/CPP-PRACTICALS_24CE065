@@ -46,6 +46,6 @@ int main() {
         cout<<b[an]<<endl;
         cout<<counter;
     }
-    
+    Printf("\n");
     return 0;
 }
