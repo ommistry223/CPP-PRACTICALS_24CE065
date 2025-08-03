@@ -19,9 +19,9 @@ int BS(int a[],int x,int l,int h)
         {
             h=m-1;
         }
-        else 
+        else
         {
-            l=m+1;           
+            l=m+1;
         }
     }
     return -1;
@@ -30,7 +30,7 @@ int BS(int a[],int x,int l,int h)
 int main() {
     int n,x,an;
     cin>>n;
-    int a[20],b[20];
+    int a[n],b[n];
     for(int i=0;i<n;i++)
     {
         cin>>a[i]>>b[i];
@@ -39,13 +39,13 @@ int main() {
     an=BS(a,x,0,n-1);
     if(an==-1)
     {
-        cout<<"Not submitted";  
+        cout<<"Not submitted";
     }
     else{
-        
+
         cout<<b[an]<<endl;
         cout<<counter;
     }
-    Printf("\n");
+    cout<<endl;
     return 0;
 }
